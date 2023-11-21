@@ -4,7 +4,7 @@ const LogoAndTitle = () => {
     return (
         <div className="LogoAndTitle">
             <img
-                src="./src/assets/logo.png"
+                src="https://raw.githubusercontent.com/heitorrodriguescarvalho/password-generator/main/src/assets/logo.png"
                 alt="logo"
                 className="logo"
             />

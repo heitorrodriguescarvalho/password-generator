@@ -193,7 +193,7 @@ const GeneratedPassword = () => {
                 <input type="text" value={password} onChange={handleChange} />
                 <button onClick={handleClick}>
                     <img
-                        src="./src/assets/reset.svg"
+                        src="https://raw.githubusercontent.com/heitorrodriguescarvalho/password-generator/main/src/assets/reset.svg"
                         alt="Reset Password"
                     />
                 </button>
@@ -201,7 +201,7 @@ const GeneratedPassword = () => {
             <CopyToClipboard text={password} onCopy={handleCopy}>
                 <button className="copy-password">
                     <img
-                        src="./src/assets/copy.svg"
+                        src="https://raw.githubusercontent.com/heitorrodriguescarvalho/password-generator/main/src/assets/copy.svg"
                         alt="Copy Password"
                     />
                     <p>{copy ? 'Copied' : 'Copy'}</p>
